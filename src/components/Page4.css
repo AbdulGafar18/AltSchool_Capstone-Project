@@ -1,0 +1,132 @@
+/* Destop 11 */
+
+#page-4 {
+    width: 1440px;
+    height: 523px;
+    text-align: left;
+    position: relative;
+    background: linear-gradient(180deg, #1e3448 99.99%, rgba(30, 52, 72, 0));
+    overflow: hidden;
+  }
+  
+  .main-form {
+    width: 392px;
+    height: 55px;
+    padding: 8px 12px 8px 12px;
+    gap: 10px;
+    border-radius: 12px;
+  }
+  
+  .Frame1000001725 {
+    width: 476px;
+    height: 305px;
+    margin-top: 83.5px;
+    margin-left: 482px;
+    padding: 42px;
+    border-radius: 12px;
+    background: #ffffff;
+  }
+  .Frame1000001727 {
+    width: 392px;
+    height: 127px;
+    margin-top: 42px;
+    margin-left: 42px;
+    gap: 24px;
+  }
+  .placeurl-text {
+    border: 0;
+  }
+  
+  .pasteurl-cont {
+    width: 392px;
+    height: 30px;
+    padding: 8px 12px 8px 12px;
+    gap: 10px;
+    border-radius: 12px;
+    border: 1px solid #0b63e7;
+  }
+  .domain {
+    width: 140px;
+    height: 12px;
+    border: 0;
+  }
+  
+  .alias {
+    width: Fixed (178px);
+    height: Fixed (48px);
+    padding: 8px 12px 8px 12px;
+    gap: 10px;
+    border-radius: 12px;
+  
+    border: 1px solid #3284ff;
+  }
+  
+  .paste-url {
+    width: 115px;
+    height: 34px;
+    padding: 8px 12px 8px 12px;
+    gap: 10px;
+  }
+  .pasteurl-text {
+    width: 91px;
+    height: 18px;
+    font-family: Gilroy-Medium;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .url-alias {
+    width: 392px;
+    height: 48px;
+    gap: 12px;
+    display: flex;
+    margin-top: 12px;
+  }
+  .button {
+    width: 392px;
+    height: 48px;
+    padding: 12px 24px 12px 24px;
+    gap: 10px;
+    border-radius: 100px;
+    align-items: center;
+    color: #ffffff;
+  }
+  .Frame1000001656 {
+    width: 392px;
+    height: 60px;
+    padding: 10px;
+    gap: 10px;
+    position: relative;
+    color: #0b63e7
+  }
+  .cus-url {
+    display: flex;
+    width: 202px;
+    height: 18px;
+    padding: 18px 20px 18px 20px;
+    gap: 10px;
+    top: 20px;
+    border-radius: 12px;
+    border: 1px solid #3284ff;
+  }
+  .vector1 {
+    width: 12px;
+    height: 6px;
+  }
+  .text-now {
+    width: Hug (392px);
+    height: Hug (120px);
+    top: 193px;
+    margin-left: 42px;
+    gap: 12px;
+    ;
+  }
+  .trim-text {
+    width: 373px;
+    height: 40px;
+  }
+  .typealias{
+    border: 0;
+  }

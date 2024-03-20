@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+                
+body {
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    /* line-height: normal; */
+    /* background-color: #112232; */
+width: 90%;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  :root {
+    /* fonts */
+    --font-gilroy-medium: Gilroy-Medium;
+    --h2-bold: Gilroy-Bold;
+    --font-gilroy-semibold: Gilroy-SemiBold;
+  
+    /* font sizes */
+    --font-size-sm: 0.88rem;
+    --h2-bold-size: 1.5rem;
+    --h4-bold-size: 1rem;
+    --h0-bold-size: 2.5rem;
+    --font-size-xl: 1.25rem;
+    --font-size-xs: 0.75rem;
+    --font-size-13xl: 2rem;
+    --font-size-lg: 1.13rem;
+  
+    /* Colors */
+    --neutral-white: #fff;
+    --neutral-800: #112232;
+    --neutral-900: #071827;
+    --text-color-main-text: #141414;
+    --primary-400: #005ae2;
+    --color-dodgerblue-100: #4991ff;
+    --primary-100: #3284ff;
+    --primary-300-base: #0065fe;
+    --color-black: #000;
+  
+    /* Gaps */
+    --gap-5xs: 0.5rem;
+    --gap-13xl: 2rem;
+    --gap-5xl: 1.5rem;
+    --gap-37xl: 3.5rem;
+    --gap-3xs: 0.63rem;
+    --gap-45xl: 4rem;
+    --gap-base: 1rem;
+    --gap-xs: 0.75rem;
+    --gap-9xl: 1.75rem;
+    --gap-21xl: 2.5rem;
+    --gap-53xl: 4.5rem;
+    --gap-9xs: 0.25rem;
+  
+    /* Paddings */
+    --padding-xs: 0.75rem;
+    --padding-5xs: 0.5rem;
+    --padding-5xl: 1.5rem;
+    --padding-9xs: 0.25rem;
+    --padding-41xl: 3.75rem;
+  
+    /* border radiuses */
+    --br-81xl: 100px;
+    --br-xs: 12px;
+  
+    /* Effects */
+    --drop-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
+   

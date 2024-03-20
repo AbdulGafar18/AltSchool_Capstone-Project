@@ -1,0 +1,257 @@
+/* Desktop 10 */
+#page-2 {
+  width: 1300px;
+  height: 983px;
+  padding: 0px 0px 100px 0px;
+  gap: 10px;
+  position: relative;
+  background: rgba(255, 255, 255, 1);
+  text-align: center;
+}
+
+strong {
+  color: rgba(0, 90, 226, 1);
+}
+
+.one-text {
+  font-family: var(--font-gilroy-medium);
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.frame1000001692 {
+  width: 337px;
+  height: 96px;
+  gap: 10px;
+}
+
+.span1 {
+  color: #141414;
+}
+
+.one-stop-four-possibilities-wrapp {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.active-users,
+.m {
+  position: relative;
+  line-height: 2.5rem;
+  font-family: var(--font-gilroy-semibold);
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.active-users {
+  font-size: var(--h4-bold-size);
+  line-height: 1.5rem;
+  font-family: var(--font-gilroy-medium);
+}
+
+.m-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 88px;
+  height: 68px;
+  gap: 4px;
+}
+
+.links-qr {
+  position: relative;
+  font-size: var(--h4-bold-size);
+  line-height: 1.5rem;
+  font-family: var(--font-gilroy-medium);
+  display: inline-block;
+  width: 7.69rem;
+  height: 3.25rem;
+  flex-shrink: 0;
+}
+
+.frame-parent19,
+.m-group {
+  display: flex;
+  align-items: flex-start;
+}
+
+.m-group {
+  height: 6.25rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+
+.frame-parent19 {
+  flex-direction: row;
+  padding: 0 var(--padding-9xs);
+  justify-content: center;
+  gap: var(--gap-53xl);
+}
+
+.clicked-scanned {
+  position: relative;
+  font-size: var(--h4-bold-size);
+  line-height: 1.5rem;
+  font-family: var(--font-gilroy-medium);
+  display: inline-block;
+  width: 8.94rem;
+  height: 3.5rem;
+  flex-shrink: 0;
+}
+
+.frame-wrapper2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.frame1000001693,
+.frame1000001715 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.frame1000001715 {
+  width: 709px;
+  height: 100px;
+  gap: 72px;
+}
+
+.frame1000001693 {
+  width: 446px;
+  height: 220px;
+  left: -3px;
+  padding: 60px 140px 60px 140px;
+  gap: 120px;
+  display: flex;
+}
+
+.frame-child12 {
+  position: relative;
+  width: 0.31rem;
+  height: 3rem;
+}
+
+.why-choose-scissors-container {
+  position: relative;
+  line-height: 2rem;
+}
+
+.vector-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+
+.scissors-is-the {
+  position: relative;
+  font-size: var(--h4-bold-size);
+  line-height: 1.75rem;
+  font-family: var(--font-gilroy-medium);
+  display: inline-block;
+  width: 23.13rem;
+  height: 12rem;
+  flex-shrink: 0;
+}
+
+.frame-parent22 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+
+.frame-child13 {
+  position: relative;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.url-shortening {
+  position: relative;
+  line-height: 1.75rem;
+}
+
+.scissor-allows-you {
+  position: relative;
+  font-size: var(--h4-bold-size);
+  line-height: 1.5rem;
+  font-family: var(--font-gilroy-medium);
+  display: inline-block;
+  width: 21.25rem;
+  height: 5rem;
+  flex-shrink: 0;
+}
+
+.url-shortening-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.group-parent {
+  gap: var(--gap-21xl);
+}
+
+.group-parent,
+.group-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.with-scissor-you {
+  position: relative;
+  font-size: var(--h4-bold-size);
+  line-height: 1.5rem;
+  font-family: Gilroy-medium;
+  display: inline-block;
+  width: 21.25rem;
+  height: 4.44rem;
+  flex-shrink: 0;
+}
+
+.frame-parent24 {
+  flex-direction: row;
+  gap: var(--gap-9xl);
+}
+
+.frame-parent21,
+.frame-parent23,
+.frame-parent24 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.frame-parent23 {
+  flex-direction: column;
+  gap: var(--gap-45xl);
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-gilroy-semibold);
+}
+
+.frame1000001703 {
+  width: 202.1px;
+  height: 504px;
+  top: 348px;
+  left: 120px;
+  gap: 96px;
+  position: absolute;
+  display: flex;
+}
