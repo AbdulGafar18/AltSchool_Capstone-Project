@@ -1,17 +1,23 @@
 import React from 'react'
 import './HeroSection.css'
 import { Link } from 'react-router-dom'
-// import { useNavigate } from 'react-router-dom'
-import Page2 from './Page2'
+// import  useHistory  from 'react-router-dom'
+// import Page2 from './Page2'
 
-const Navbar = () => {
-    // const navigate = useNavigate()
+const Navbar: React.FC = () =>{
+
+    // const history = useHistory('')
+    // const handleLogoClick = () => {
+        // history.push('/')
+        // onClick={handleLogoClick}
+        
+    
 
   return (
     <nav>
     <div className="header">
     <div className="logo">
-    <Link to='/'> <img src='./assets/Logo.png' alt='logo' /></Link> 
+    <img  src='./assets/Logo.png' alt='logo' /> 
     </div> 
     <div className="frame1000001643">
       <div>My URLs</div>

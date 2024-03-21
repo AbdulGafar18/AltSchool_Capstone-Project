@@ -1,10 +1,12 @@
 import React from 'react'
+import Navbar from './Navbar'
 import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
     <div>
-      <h1> Welcome to the Home Page</h1>
+         < Navbar />
+      <h1> Home Page</h1>
 
       <p>
         To shorten a URL, visit the{' '}

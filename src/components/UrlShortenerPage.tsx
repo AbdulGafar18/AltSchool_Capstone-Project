@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const UrlShortenerPage = () => {
+
+const UrlShortenerPage:React.FC = () => {
   const [longUrl, setLongUrl] = useState('');
   const [shortUrl, setShortUrl] = useState('');
   const [error, setError] = useState('');
@@ -27,7 +28,7 @@ const UrlShortenerPage = () => {
           onChange={(e) => setLongUrl(e.target.value)}
           placeholder="Enter URL to shorten"
         />
-        <button onClick={handleShortenUrl}>Shorten</button>
+        <button className='shorten' onClick={handleShortenUrl}>Shorten</button>
       </div>
       {shortUrl && (
         <div>
@@ -38,6 +39,7 @@ const UrlShortenerPage = () => {
         </div>
       )}
       {error && <p>{error}</p>}
+      
     </div>
   );
 };
