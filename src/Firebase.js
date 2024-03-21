@@ -1,8 +1,8 @@
 // firebase.ts
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+//import { getAnalytics } from "firebase/analytics";
 import { getAuth } from 'firebase/auth'
-import { createUserWithEmailAndPassword, Auth } from "firebase/auth"
+//import { createUserWithEmailAndPassword, Auth } from "firebase/auth"
 
 const firebaseConfig = {
 

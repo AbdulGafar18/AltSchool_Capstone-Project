@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { auth } from '../Firebase';
 import { signInWithEmailAndPassword } from 'firebase/auth';
-import Navbar from '../components/Navbar'; // Update this import
+//import Navbar from '../components/Navbar'; // Update this import
 
 const SignIn = () => {
   const [loginEmail, setLoginEmail] = useState('');
