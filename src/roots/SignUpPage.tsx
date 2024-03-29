@@ -4,6 +4,7 @@ import { createUserWithEmailAndPassword } from 'firebase/auth';
 import "./SignUpPage.css";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import { HashLink } from "react-router-hash-link";
 
 const SignUpPage = () => {
     const [userName, setUserName] = useState('')

@@ -1,6 +1,5 @@
 import React from "react";
 // import './HeroSection.css'
-import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { HashLink } from "react-router-hash-link";
 
