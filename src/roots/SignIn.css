@@ -1,0 +1,9 @@
+label{
+    display: flex;
+    flex-direction: column;
+}
+#SingIn{
+    align-items: center;
+    width: 500px;
+
+}

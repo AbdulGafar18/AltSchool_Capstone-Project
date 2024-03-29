@@ -2,7 +2,8 @@
 import React, { useState } from 'react';
 import { auth } from '../Firebase';
 import { signInWithEmailAndPassword } from 'firebase/auth';
-import Navbar from '../components/Navbar'; // Update this import
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 const SignIn = () => {
   const [loginEmail, setLoginEmail] = useState('');
@@ -27,12 +28,11 @@ const SignIn = () => {
   };
 
   return (
-    <div className='signin-section'>
-      <section>
-        <div id="SignIn">Sign In</div>
-        <div>
-          <h1>Welcome to the Home Page</h1>
-          {/* Login Form */}
+    
+      <section id="SignIn">
+         <Navbar />
+        <div >Sign In</div>
+        
           <div>
             <label>
               Email:
@@ -44,9 +44,11 @@ const SignIn = () => {
             </label>
             <button onClick={handleLogin}>Login</button>
           </div>
-        </div>
+          < Footer />
+          
+         
       </section>
-    </div>
+    
   );
 };
 

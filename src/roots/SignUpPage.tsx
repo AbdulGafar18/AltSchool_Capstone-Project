@@ -4,7 +4,7 @@ import { createUserWithEmailAndPassword } from 'firebase/auth';
 import "./SignUpPage.css";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const SignUpPage = () => {
     const [userName, setUserName] = useState('')
@@ -107,7 +107,7 @@ const SignUpPage = () => {
         <div><button className="embtn" type="submit">Sign up with Email</button></div>
         <div className="group14">
           <div className="alacc">Already have an account?</div>
-          <div className="lg"> Login</div>
+          <div className="lg"><HashLink to='/#login-page'>Login</HashLink> </div>
         </div>
         <div className="spn">
           <div className="bysig">By signing up, you agree to</div>

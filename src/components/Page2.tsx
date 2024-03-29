@@ -3,6 +3,7 @@ import './Page2.css'
 import { Link } from "react-router-dom";
 
 
+
 const Page2 = () => {
     return  (
         <>

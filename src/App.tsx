@@ -10,6 +10,9 @@ import  SignUpPage from './roots/SignUpPage';
 import Navbar from './components/Navbar';
 import UrlShortenerPage from './components/UrlShortenerPage';
 import SignIn from './roots/SignIn';
+import LogInPage from './components/LogIn';
+import { auth } from './Firebase';
+import { signInWithEmailAndPassword } from 'firebase/auth';
 
 
 
@@ -31,8 +34,8 @@ function  App () {
      < Page5 />
      < Page6 />
      < Footer />
-     
- < SignIn />
+     < SignIn />
+    {/* < LogInPage /> */}
      < SignUpPage />
      
 

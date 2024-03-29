@@ -8,22 +8,7 @@ import { signInWithEmailAndPassword } from 'firebase/auth';
 
 
 const LogInPage = () => {
-  // const [showPassword, setShowPassword] = useState(false);
-  // const [username, setUsername] = useState('');
-  // const [password, setPassword] = useState('');
-  // const [rememberMe, setRememberMe] = useState(false)
-
-  // const handleTogglePasswordVisibility = () => {
-  //   setShowPassword(!showPassword);
-  // };
   
-
-  // const handleSubmit = (event: React.FormEvent) => {
-  //   event.preventDefault();
-  //   alert('Login successfully')
-  //   console.log('Remember Me:', rememberMe);
-
-  // };
 
   const [loginEmail, setLoginEmail] = useState('');
   const [loginPassword, setLoginPassword] = useState('');
@@ -55,7 +40,7 @@ const LogInPage = () => {
   return (
     <section>
       < Navbar />
-      <div className="login-page">
+      <div id="login-page">
         <h1>Login</h1>
         <form onSubmit={handleLogin}>
           <div className="input-group">
@@ -63,14 +48,14 @@ const LogInPage = () => {
               type="text"
               placeholder="Username"
               value={loginEmail}
-              onChange={(any) => setLoginEmail(any.target.value)}
+              onChange={(e) => setLoginEmail(e.target.value)}
             />
 
             <input
               type={showPassword ? 'text' : 'password'}
               placeholder="Password"
               value={loginPassword}
-              onChange={(any) => setLoginPassword(any.target.value)}
+              onChange={(e) => setLoginPassword(e.target.value)}
             />
             <div className="toggle-password" onClick={handleTogglePasswordVisibility}>
               {showPassword ? '👁️' : '👁️‍🗨️'}
@@ -87,7 +72,7 @@ const LogInPage = () => {
       < Footer />
     </section>
   );
-}
+  };
 }
 
-export default LogInPage;
+export default LogInPage

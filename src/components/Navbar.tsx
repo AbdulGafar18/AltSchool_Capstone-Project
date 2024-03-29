@@ -1,46 +1,30 @@
-import React from 'react'
-import './HeroSection.css'
-import { Link } from 'react-router-dom'
-// import  useHistory  from 'react-router-dom'
-// import Page2 from './Page2'
+import React from "react";
+// import './HeroSection.css'
+import { Link } from "react-router-dom";
+import "./Navbar.css";
+import { HashLink } from "react-router-hash-link";
 
-const Navbar: React.FC = () =>{
 
-    // const history = useHistory('')
-    // const handleLogoClick = () => {
-        // history.push('/')
-        // onClick={handleLogoClick}
-        
-    
-
+function Navbar () {
   return (
     <nav>
-    <div className="header">
-    <div className="logo">
-    <img  src='./assets/Logo.png' alt='logo' /> 
-    </div> 
-    <div className="frame1000001643">
-      <div>My URLs</div>
-      <div className="features">
-        <div ><Link to='/page-2'> Features</Link>
-        </div>
-        <img  src="./assets/chevrondown.svg" alt="" />
+      <div className="logo">
+        <img src="./assets/Vector.jpg" alt="vector" />
+        <div className="divider"></div>
+        <h2>SCISSOR</h2>
       </div>
-      <div >Pricing</div>
-      <div> Analytics</div>
-      <div> FAQs</div>
-    </div>
-    <div className="frame1000001645">
-      <div>Log in</div>
-      <div className="button5">
-        <div >Try for free</div>
-        <div className="magic-wand">
-          <img className="magic-wand-icon" alt="" src="./assets/magic-wand5.svg" />
-        </div>
+      <div className="nav-links">
+        <HashLink to="/#page-4"> My URLs</HashLink>
+        <HashLink to="/#page-2"> Features</HashLink>
+        <HashLink to="/#page-3"> Pricing</HashLink>     
+        <HashLink to="/#page-6"> Analytics</HashLink>
+        <HashLink to="/#page-5">FAQs</HashLink>
       </div>
-    </div>
-  </div>
-      </nav>
+      <div className="nav-btns">
+        <button><HashLink to='/#SignIn'>Log In</HashLink></button>
+        <button><HashLink to='/#SignUp'>Try for Free </HashLink></button>
+      </div>
+    </nav>
   )
 }
 
